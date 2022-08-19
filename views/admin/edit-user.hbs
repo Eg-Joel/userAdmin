@@ -1,0 +1,18 @@
+<section >
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="text-center">Edit User</h1>
+                <form action="/admin/edit-user/{{user._id}}" method="post" id="submit-form">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" value="{{user.name}}" class="form-control" required pattern="\S(.*\S)?"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" class="form-control" value="{{user.email}}"><br>
+                     <label for="password">Password</label><br>
+                    <input type="password" name="password" value="{{user.password}}" class="form-control" required pattern="\S(.*\S)?"><br>
+                    <button type="submit" class="btn ">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

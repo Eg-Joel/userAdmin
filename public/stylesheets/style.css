@@ -1,0 +1,43 @@
+/* body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+} */
+body {
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.bg{
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  height: 100vh;
+  
+}
+.form-container{
+  position: absolute;
+  top: 15vh;
+  width: 40vw;
+  background: black;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+}
+.items{
+  color: white;
+  font-weight: bold;
+}
+.items:hover{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.form-group {
+  margin-bottom: 2rem !important;
+}

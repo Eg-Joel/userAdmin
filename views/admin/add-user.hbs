@@ -1,0 +1,19 @@
+
+<section >
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="text-center">Add User</h1>
+                <form action="/admin/add-user" method="post" id="submit-form">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" class="form-control" required pattern="\S(.*\S)?"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" class="form-control" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$"><br>
+                     <label for="password">Password</label><br>
+                    <input type="password" name="password" class="form-control" required pattern="\S(.*\S)?"><br>
+                    <button type="submit" class="btn ">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
